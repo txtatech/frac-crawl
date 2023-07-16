@@ -134,11 +134,11 @@ GOALS:
 
 This approach could potentially allow the model to learn more effectively from the data, as it would be able to leverage the insights gained from multiple iterations or versions of the model. It could also make the model more robust, as it would not be overly dependent on any single iteration or version.
 
-It's clear that you've put a lot of thought into this. Using PNGs as your primary data source could be an efficient way to structure your approach.
+Using PNGs as the primary data source could be an efficient way to structure the approach.
 
 1. **Efficient Representation**: PNGs can be a compact representation of the text data as fractals, allowing you to store and process large amounts of data more efficiently.
 
-2. **GPU Acceleration**: Many machine learning frameworks, such as TensorFlow and PyTorch, are able to leverage the power of GPUs to process image data more quickly than traditional CPU-based processing. By representing your data as PNG images, you could potentially take advantage of this to speed up your training process.
+2. **GPU Acceleration**: Many machine learning frameworks, such as TensorFlow and PyTorch, are able to leverage the power of GPUs to process image data more quickly than traditional CPU-based processing. Representing the data as PNG images, could potentially take advantage of this to speed up the training process.
 
 3. **On-the-fly Processing**: Generating SVGs and text files for comparison only when needed could save computational resources. This "lazy" approach ensures that you're only generating and processing the data that you actually need.
 
@@ -146,17 +146,19 @@ It's clear that you've put a lot of thought into this. Using PNGs as your primar
 
 5. **Headless Operation**: Running the model in a "headless" manner, without generating unnecessary visual output, could further improve efficiency.
 
+## FURTHER NOTES:
+
 While PNGs are an efficient way to store data, they are a lossy format. Some information from the original text might be lost or distorted in the conversion process. It's important to validate that the model trained on the PNG data performs well on your task and that any loss of information does not significantly impact performance.
 
 ### ASCII art QR codes could be used as a form of self-contained error correction mechanism.
 
-1. **QR Code Generation**: You could start by encoding your data into a QR code. QR codes have error correction built in, which means they can still be read even if part of the code is damaged or obscured.
+1. **QR Code Generation**: Start by encoding your data into a QR code. QR codes have error correction built in, which means they can still be read even if part of the code is damaged or obscured.
 
-2. **ASCII Art Conversion**: You could then convert the QR code into ASCII art. This would essentially be a textual representation of the QR code, which could then be processed by your fractal generation script.
+2. **ASCII Art Conversion**: You can then convert the QR code into ASCII art. This will essentially be a textual representation of the QR code, which can then be processed by the fractal generation script.
 
-3. **Fractal Generation**: You could use your `frac-crawl.py` script to convert the ASCII art QR code into a fractal image. This would give you a unique, visual representation of your QR code.
+3. **Fractal Generation**: Use the `frac-qr.py` script to convert the ASCII art QR code into a fractal image. This gives you a unique, visual representation of your QR code.
 
-4. **Error Detection and Correction**: If the fractal image gets damaged or corrupted in some way, you could convert it back into an ASCII art QR code, and then use a QR code reader to decode the data. The error correction capabilities of the QR code would allow you to recover the original data, even if the fractal image was partially damaged.
+4. **Error Detection and Correction**: If the fractal image gets damaged or corrupted in some way, you can convert it back into an ASCII art QR code, and then use a QR code reader to decode the data. The error correction capabilities of the QR code could potentialy allow you to recover the original data, even if the fractal image was partially damaged.
 
 When you scan the ASCII art QR code, the resulting data is JavaScript code.
 
