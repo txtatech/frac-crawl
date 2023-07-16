@@ -1,5 +1,5 @@
 # frac-crawl
-A fractal encoding Python script that generates fractal images based on a given text input, builds a central ledger, updates the metadata of the images.
+A fractal encoding Python script that generates fractal images based on a given text input, builds a central ledger, and updates the metadata of the images.
 
 It splits the text into chunks, encodes each chunk into a fractal image, and saves the images along with the corresponding decoded text. It is intended for large text datasets as fractals but can be adjusted for smaller also.
 
