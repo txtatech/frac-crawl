@@ -120,7 +120,7 @@ The `frac-crawl.py` script could potentially be used in various ways in the cont
 5. **Robustness**: Training the model on fractal images in addition to the raw text could potentially make the model more robust to certain types of noise or corruption in the input data.
 
 
-A higher-dimensional or multi-modal approach to training the language learning model, using the fractal representations as a sort of "glue" that links together different iterations or versions of the model. This is a fascinating concept! 
+A higher-dimensional or multi-modal approach to training the language learning model, using the fractal representations as a sort of "glue" that links together different iterations or versions of the model.
 
 GOALS:
 
