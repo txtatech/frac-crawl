@@ -105,7 +105,7 @@ That's it! You should now have a clear understanding of how the code works and h
 
 ## VERSION 0.0.02 NOTES:
 
-This is an interesting question. The LLM in your question could refer to Language Learning Models, which are a type of machine learning model used in natural language processing.
+### LLM (Language Learning Models): 
 
 The `frac-crawl.py` script could potentially be used in various ways in the context of training such models:
 
