@@ -1,7 +1,7 @@
 # frac-crawl
-A fractal encoding Python script that generates fractal images based on a given text input, builds a central ledger, and updates the metadata of the images. Then builds a JSON lattice with a coordinate mapping system to create a seamless self-referencing fractal terrain. 
+A fractal encoding framework written in Python that generates fractal images based on a given text input, builds a central ledger, and updates the metadata of the images. It then builds a JSON lattice with a coordinate mapping system to create a seamless self-referencing fractal terrain. 
 
-It splits the text into chunks, encodes each chunk into a fractal image, and saves the images along with the corresponding decoded text. It is intended for large text datasets as fractals but can be adjusted for smaller sets of text.
+It splits the text into chunks, encodes each chunk into a fractal image, and saves the images along with the corresponding decoded text. It is intended to preserve large text datasets as fractals but can be adjusted for smaller sets of text and other uses.
 
 ### Dependencies
 
